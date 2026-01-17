@@ -1,0 +1,881 @@
+/* Responsive Design - Arquivo Geral */
+
+/* ===========================================
+   DESKTOP (1025px+)
+   =========================================== */
+/* Estilos base já estão definidos */
+
+/* ===========================================
+   TABLET ESPECÍFICO (800x1280) - 769px - 900px
+   =========================================== */
+@media (max-width: 900px) and (min-width: 769px) {
+    .main-navbar {
+        padding: 0 15px;
+    }
+    
+    .main-navbar .nav-list li {
+        margin: 0px 8px;
+    }
+    
+    .banner .banner-conteudo h1 {
+        font-size: 50px;
+    }
+    
+    .sobre {
+        padding: 60px 3%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre .sobre-conteudo {
+        flex-direction: column;
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        padding: 40px 3%;
+        text-align: center;
+        gap: 30px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto;
+        margin-bottom: 0;
+        padding-left: 0;
+        margin-right: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        right: 0 !important;
+        left: 0 !important;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 12px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda::before {
+        display: none !important;
+    }
+    
+    .sobre-conteudo .sobre-coluna-direita {
+        width: 100% !important;
+        margin-top: 0 !important;
+        left: 0 !important;
+        padding-left: 0 !important;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    .treinadora-bio {
+        padding: 50px 4%;
+    }
+    
+    .treinadora-bio .treinadora-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .treinadora-bio .treinadora-coluna-esquerda {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .treinadora-bio .treinadora-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 350px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .treinadora-bio .treinadora-coluna-direita {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .bio-fundo-colorido {
+        background-position: center;
+    }
+    
+    .consultoria-online {
+        padding: 50px 4%;
+    }
+    
+    .consultoria-online .consultoria-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .consultoria-online .consultoria-coluna-esquerda {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .consultoria-online .consultoria-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 380px;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    
+    .consultoria-online .consultoria-coluna-direita {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .servicos {
+        padding: 40px 0 0;
+    }
+    
+    .servicos .servicos-conteudo {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 4%;
+        gap: 15px;
+    }
+    
+    .servico-box .servico-image-box {
+        height: 250px;
+        min-height: 250px;
+    }
+    
+    .servico-box .image-title-overlay span {
+        font-size: 15px;
+        padding: 7px 0;
+    }
+    
+    #pricing-z4-perfomance {
+        padding: 50px 10px;
+    }
+    
+    .tabs-navigation {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tab-button {
+        padding: 12px 24px;
+        font-size: 1em;
+        min-width: auto;
+        width: auto;
+    }
+    
+    .pricing-conteudo {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .pricing-card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .testimonials-item {
+        padding: 25px 20px;
+        min-height: 250px;
+        max-height: 280px;
+    }
+    
+    .testimonials-item .info img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* ===========================================
+   TABLET (769px - 1024px)
+   =========================================== */
+@media (max-width: 1024px) {
+    /* Header responsivo */
+    .main-navbar {
+        padding: 0 20px;
+    }
+    
+    .main-navbar .nav-list li {
+        margin: 0px 10px;
+    }
+    
+    /* Seção Hero */
+    /* Seção Hero/Início */
+    .home {
+        height: 100vh;
+        min-height: 600px;
+    }
+    
+    .banner .banner-conteudo h1 {
+        font-size: 60px;
+    }
+    
+    .home-pagination {
+        bottom: 30px;
+    }
+    
+    /* Seção Sobre */
+    .sobre {
+        padding: 80px 5%;
+    }
+    
+    .sobre .sobre-conteudo {
+        padding: 80px 5%;
+    }
+    
+    /* Seção Treinadora */
+    .treinadora-bio {
+        padding: 60px 5%;
+    }
+    
+    .treinadora-bio .treinadora-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .treinadora-bio .treinadora-coluna-esquerda {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .treinadora-bio .treinadora-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .treinadora-bio .treinadora-coluna-direita {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .bio-fundo-colorido {
+        background-position: center;
+    }
+    
+    /* Seção Consultoria */
+    .consultoria-online {
+        padding: 60px 5%;
+    }
+    
+    .consultoria-online .consultoria-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .consultoria-online .consultoria-coluna-esquerda {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .consultoria-online .consultoria-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 420px;
+        margin: 0 auto 20px;
+        display: block;
+    }
+    
+    .consultoria-online .consultoria-coluna-direita {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    /* Seção Serviços */
+    .servicos .servicos-conteudo {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 3%;
+    }
+    
+    /* Seção Preços */
+    #pricing-z4-perfomance {
+        padding: 60px 15px;
+    }
+    
+    .tabs-navigation {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .tab-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+        min-width: 80px;
+    }
+    
+    /* Feedbacks */
+    .testimonials-item {
+        padding: 25px 20px;
+        min-height: 250px;
+        max-height: 280px;
+    }
+    
+    .testimonials-item .info img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* ===========================================
+   MOBILE (481px - 768px)
+   =========================================== */
+@media (max-width: 768px) {
+    /* Header mobile */
+    .main-navbar .nav-list {
+        display: none;
+    }
+    
+    .hamburguer-btn {
+        display: flex !important;
+    }
+    
+    /* Seção Hero */
+    /* Seção Hero/Início */
+    .home {
+        height: 100vh;
+        min-height: 500px;
+    }
+    
+    .banner .banner-conteudo h1 {
+        font-size: 45px;
+    }
+    
+    .home-pagination {
+        bottom: 25px;
+    }
+    
+    /* Seção Sobre */
+    .sobre {
+        padding: 60px 4%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre .sobre-conteudo {
+        flex-direction: column;
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        padding: 40px 4%;
+        text-align: center;
+        gap: 30px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto;
+        margin-bottom: 0;
+        padding-left: 0;
+        margin-right: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        right: 0 !important;
+        left: 0 !important;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 12px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda::before {
+        display: none !important;
+    }
+    
+    .sobre-conteudo .sobre-coluna-direita {
+        width: 100% !important;
+        margin-top: 0 !important;
+        left: 0 !important;
+        padding-left: 0 !important;
+        height: auto;
+        box-sizing: border-box;
+    }
+    
+    /* Seção Treinadora */
+    .treinadora-bio {
+        padding: 50px 4%;
+    }
+    
+    .treinadora-bio .treinadora-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .treinadora-bio .treinadora-coluna-esquerda {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .treinadora-bio .treinadora-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 340px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .treinadora-bio .treinadora-coluna-direita {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    /* Seção Consultoria */
+    .consultoria-online {
+        padding: 50px 4%;
+    }
+    
+    .consultoria-online .consultoria-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .consultoria-online .consultoria-coluna-esquerda {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .consultoria-online .consultoria-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 360px;
+        margin: 0 auto 18px;
+        display: block;
+    }
+    
+    .consultoria-online .consultoria-coluna-direita {
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    /* Seção Serviços */
+    .servicos {
+        padding: 40px 0 0;
+    }
+    
+    .servicos .servicos-conteudo {
+        grid-template-columns: 1fr;
+        padding: 0 4%;
+        gap: 15px;
+    }
+    
+    .servico-box .servico-image-box {
+        height: 220px;
+        min-height: 220px;
+        max-height: 220px;
+    }
+    
+    .servico-box .servico-image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        transition: transform 0.3s ease;
+    }
+    
+    .servico-box .image-title-overlay span {
+        font-size: 14px;
+        padding: 6px 0;
+    }
+    
+    /* Seção Preços */
+    #pricing-z4-perfomance {
+        padding: 50px 10px;
+    }
+    
+    .tabs-navigation {
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tab-button {
+        padding: 12px 24px;
+        font-size: 1em;
+        min-width: auto;
+        width: auto;
+    }
+    
+    .pricing-conteudo {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .pricing-card {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    
+    /* Feedbacks */
+    .testimonials-item {
+        padding: 20px 15px;
+        min-height: 260px;
+    }
+    
+    .testimonials-item .info {
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .testimonials-item .info img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .testimonials-item .name {
+        font-size: 14px;
+    }
+    
+    .testimonials-item p {
+        font-size: 12px;
+    }
+    
+    /* Linha amarela dos feedbacks responsiva */
+    .section-header .title::after {
+        width: 240px;
+        height: 5px;
+    }
+
+    .feedbacks .section-header .title::after {
+        width: 5px;
+    }
+    
+    /* Footer */
+    .footer-conteudo {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+/* ===========================================
+   MOBILE PEQUENO (até 480px)
+   =========================================== */
+@media (max-width: 480px) {
+    /* Header muito pequeno */
+    .main-navbar {
+        height: 60px;
+        padding: 0 15px;
+    }
+    
+    .main-navbar .logo img {
+        width: 100px;
+    }
+    
+    /* Seção Hero/Início */
+    .home {
+        height: 100vh;
+        min-height: 450px;
+        max-height: 100vh;
+    }
+    
+    .home-slider {
+        height: 100%;
+    }
+    
+    .slide-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .banner {
+        padding: 0 20px;
+        width: 100%;
+    }
+    
+    .banner .banner-conteudo h1 {
+        font-size: 35px;
+        line-height: 1.2;
+        word-wrap: break-word;
+    }
+    
+    .home-pagination {
+        bottom: 20px;
+    }
+    
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+    }
+    
+    /* Seção Sobre */
+    .sobre {
+        padding: 40px 2.5%;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre .sobre-conteudo {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        padding: 30px 2.5%;
+        gap: 20px;
+        overflow-x: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda {
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto;
+        padding: 0;
+        margin: 0 0 20px 0;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        right: 0 !important;
+        left: 0 !important;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 12px;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-esquerda::before {
+        display: none !important;
+    }
+    
+    .sobre-conteudo .sobre-coluna-direita {
+        width: 100% !important;
+        height: auto;
+        padding-left: 0 !important;
+        margin-top: 0 !important;
+        left: 0 !important;
+        box-sizing: border-box;
+    }
+    
+    .sobre-conteudo .sobre-coluna-direita h1 {
+        font-size: 28px;
+    }
+    
+    /* Seção Treinadora */
+    .treinadora-bio {
+        padding: 40px 3%;
+    }
+    
+    .treinadora-bio .treinadora-conteudo {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .treinadora-bio .treinadora-coluna-esquerda img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .treinadora-bio .treinadora-coluna-direita h1 {
+        font-size: 24px;
+    }
+    
+    /* Seção Consultoria */
+    .consultoria-online {
+        padding: 40px 3%;
+    }
+    
+    /* Seção Consultoria Mobile - ordem correta: título, subtítulo, imagem, lista */
+    .consultoria-online .consultoria-content {
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center;
+        gap: 30px;
+    }
+    
+    /* Forçar ordem correta no mobile - usar display: contents para que order funcione */
+    .consultoria-online .consultoria-coluna-direita {
+        order: 1;
+        display: contents !important;
+        width: 100%;
+    }
+    
+    /* Título e subtítulo aparecem primeiro */
+    .consultoria-online .consultoria-header-mobile {
+        order: 1 !important;
+        width: 100% !important;
+        display: block;
+    }
+    
+    /* Imagem vem logo depois do subtítulo */
+    .consultoria-online .consultoria-coluna-esquerda,
+    .consultoria-online .consultoria-imagem-mobile {
+        order: 2 !important;
+        width: 100%;
+        margin: 30px 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Lista vem depois da imagem */
+    .consultoria-online .consultoria-passos-mobile {
+        order: 3 !important;
+        width: 100% !important;
+        margin-top: 0 !important;
+        display: block;
+    }
+    
+    .consultoria-online .consultoria-coluna-esquerda img,
+    .consultoria-online .consultoria-imagem-mobile img,
+    .consultoria-online .consultoria-imagem img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
+        min-height: 500px;
+        max-height: 650px;
+        margin: 0 auto;
+        display: block;
+        object-fit: cover;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .consultoria-online .consultoria-coluna-direita h1 {
+        font-size: 24px;
+    }
+    
+    /* Seção Serviços */
+    .servicos {
+        padding: 30px 0 0;
+    }
+    
+    .servicos .servicos-conteudo {
+        padding: 0 3%;
+        gap: 12px;
+    }
+    
+    .servico-box .servico-image-box {
+        height: 200px;
+        min-height: 200px;
+        max-height: 200px;
+    }
+    
+    .servico-box .servico-image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+        transition: transform 0.3s ease;
+    }
+    
+    .servico-box .image-title-overlay span {
+        font-size: 13px;
+        padding: 5px 0;
+    }
+    
+    /* Seção Preços */
+    #pricing-z4-perfomance {
+        padding: 40px 5px;
+    }
+    
+    .tabs-navigation {
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tab-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+        min-width: auto;
+        width: auto;
+    }
+    
+    .pricing-card {
+        max-width: 300px;
+    }
+    
+    .btn-choose {
+        padding: 10px 25px;
+        font-size: 0.9em;
+    }
+    
+    /* Feedbacks */
+    .testimonials-item {
+        padding: 15px 10px;
+        min-height: 220px;
+    }
+    
+    .testimonials-item .info img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .testimonials-item .name {
+        font-size: 13px;
+    }
+    
+    .testimonials-item p {
+        font-size: 11px;
+    }
+    
+    /* Linha amarela dos feedbacks responsiva - mobile pequeno */
+    .section-header .title::after {
+        width: 240px;
+        height: 4px;
+    }
+
+    .feedbacks .section-header .title::after {
+        width: 180px;
+    }
+    
+    /* Footer */
+    .btn-noticia-btn,
+    .btn-area-footer {
+        width: 100%;
+        max-width: 320px;
+        min-width: auto;
+        padding: 18px 40px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn-noticia-btn,
+    .btn-area-footer {
+        width: 100%;
+        max-width: 100%;
+        padding: 18px 36px;
+        font-size: 17px;
+    }
+}

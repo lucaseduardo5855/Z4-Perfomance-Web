@@ -1,0 +1,93 @@
+/* WhatsApp Float Button */
+.pop-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1000;
+    animation: pulse 2s infinite;
+}
+
+.whatsappLink {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.btn-whatsapp-link,
+.btn-whatsapp-link:focus,
+.btn-whatsapp-link:active,
+.btn-whatsapp-link:hover {
+    /* CRÍTICO: Remove o sublinhado e o contorno do link */
+    text-decoration: none !important;
+    outline: none !important;
+    border: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    
+    /* Garante que o texto seja branco (para evitar a cor vazada) */
+    color: white !important; 
+}
+
+.btn-whatsapp-link button,
+.btn-whatsapp-link button:focus,
+.btn-whatsapp-link button:active,
+.btn-whatsapp-link button:hover {
+    border: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    outline: none !important;
+}
+
+.whatsappLink:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.pop-up img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .pop-up {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    .whatsappLink {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .pop-up img {
+        width: 25px;
+        height: 25px;
+    }
+}
