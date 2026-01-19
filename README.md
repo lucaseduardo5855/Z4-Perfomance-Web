@@ -1,4 +1,4 @@
-🚀 Z4 Performance - Landing Page Institucional
+🚀 Z4 Performance - 
 Esta é a página de entrada da Assessoria Z4 Performance, desenvolvida para apresentar os serviços e converter novos atletas através de um design moderno e responsivo.
 Este projeto faz parte da solução completa de engenharia entregue como TCC em Engenharia de Software.
 
