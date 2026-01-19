@@ -1,19 +1,63 @@
-🚀 Z4 Performance - 
-Esta é a página de entrada da Assessoria Z4 Performance, desenvolvida para apresentar os serviços e converter novos atletas através de um design moderno e responsivo.
-Este projeto faz parte da solução completa de engenharia entregue como TCC em Engenharia de Software.
+# Z4 Performance
 
-🎯 Objetivo
-Proporcionar uma experiência de navegação fluida e intuitiva, servindo como a "vitrine" para o Sistema de Gestão de Performance.
+Este projeto é a page da assessoria esportiva **Z4 Performance**, focada em transformar vidas através do movimento, oferecendo treinamentos personalizados de corrida e musculação.
 
-✨ Destaques
-Design Responsivo: Adaptado para smartphones, tablets e desktops (Mobile-First).
-Foco em Conversão: Estrutura pensada para guiar o atleta até a contratação dos planos.
-Performance Visual: Carregamento otimizado de imagens e componentes.
+## 🚀 Tecnologias Utilizadas
 
-🛠️ Tecnologias Utilizadas
-HTML5 / CSS3
-JavaScript
-Google Fonts & FontAwesome
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-🔗 Ecossistema Completo
-Se você deseja conhecer o núcleo técnico (Back-end, Banco de Dados e Análise Gráfica), acesse o repositório do sistema administrativo: 👉 [Sistema de Gestão Full-Stack](https://github.com/lucaseduardo5855/Plataforma-Web-Assessoria)
+*   **HTML5**: Estruturação semântica do conteúdo.
+*   **CSS3**: Estilização responsiva e animações.
+*   **JavaScript (ES6+)**: Interatividade e lógica da página.
+*   **[Swiper.js](https://swiperjs.com/)**: Criação de sliders (carrosséis) modernos e responsivos (Home e Feedbacks).
+*   **[ScrollReveal.js](https://scrollrevealjs.org/)**: Animações de revelação ao rolar a página.
+*   **Font Awesome**: Ícones vetoriais.
+
+## 📂 Estrutura do Projeto
+
+A estrutura de diretórios do projeto é a seguinte:
+
+```folder-structure
+Assessoria_Site/
+│
+├── assets/
+│   ├── css/            # Arquivos de estilo (.css)
+│   ├── img/            # Imagens e ícones
+│   │   └── index.html  # ⚠️ PÁGINA PRINCIPAL DO SITE
+│   │
+│   ├── javaScript/     # Scripts (.js)
+│   │   └── script.js   # Lógica principal
+│   │
+│   ├── components/     # Componentes HTML reutilizáveis
+│   └── docs/           # Documentação adicional
+│
+└── README.md           # Este arquivo
+```
+
+> [!CAUTION]
+> **Atenção:** O arquivo principal do site (`index.html`) está localizado dentro da pasta `assets/img/`. Para visualizar o site, você deve abrir este arquivo.
+
+## 🏃 Como Executar
+
+1.  Clone este repositório:
+    ```bash
+    git clone https://github.com/lucaseduardo5855/Assessoria_Site.git
+    ```
+2.  Navegue até o diretório do projeto.
+3.  Abra o arquivo `assets/img/index.html` em seu navegador de preferência.
+
+## ✨ Funcionalidades
+
+*   **Navegação Responsiva**: Menu hambúrguer para dispositivos móveis e navbar que muda de estilo ao rolar.
+*   **Carrossel de Imagens**: Destaque para modalidades e atletas na tela inicial.
+*   **Animação de Texto**: Efeito de digitação para frases motivacionais.
+*   **Calculadora de Planos**: Visualização dinâmica dos preços dos planos (Mensal, Semestral, Anual).
+*   **Integração com WhatsApp**: Botões que direcionam para conversas personalizadas no WhatsApp.
+*   **Depoimentos**: Slider com feedbacks de alunos reais.
+
+## 👤 Autor
+
+Desenvolvido por **Lucas Eduardo**.
+
+---
+*Todos os direitos reservados à Z4 Performance.*
